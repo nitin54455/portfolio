@@ -181,7 +181,7 @@ export default function Home() {
                   <div className="relative w-full h-full flex items-center justify-center">
                     <Image 
                       src="/your-photo.jpg" 
-                      alt="Nitin Singh" 
+                      alt="Abhinay Mishra" 
                       unoptimized
                       fill
                       style={{ objectFit: 'cover' }}
