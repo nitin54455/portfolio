@@ -22,7 +22,7 @@ export function Header() {
       <div className="max-w-6xl mx-auto flex h-16 items-center justify-between px-6 md:px-10">
         <div className="flex items-center">
           <Link href="/" className="mr-6 flex items-center">
-            <span className="text-xl font-bold">Nitin Singh</span>
+            <span className="text-xl font-bold">Abhinay Mishra</span>
           </Link>
         </div>
         
