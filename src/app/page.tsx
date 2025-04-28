@@ -182,6 +182,7 @@ export default function Home() {
                     <Image 
                       src="/your-photo.jpg" 
                       alt="Nitin Singh" 
+                      unoptimized
                       fill
                       style={{ objectFit: 'cover' }}
                       className="transition-transform duration-700 hover:scale-110"
