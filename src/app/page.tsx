@@ -36,7 +36,7 @@ export default function Home() {
                 Welcome to my portfolio
               </div>
               <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 dark:from-blue-400 dark:via-indigo-400 dark:to-purple-400 bg-clip-text text-transparent">
-                Nitin Singh
+                Abhinay Mishra
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-gray-700 dark:text-gray-300 max-w-2xl">
                 Bachelor of Technology - <span className="font-semibold text-indigo-600 dark:text-indigo-400">Computer Science and Engineering</span>
@@ -44,28 +44,28 @@ export default function Home() {
               
               {/* Contact info */}
               <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-10">
-                <a href="mailto:nitin45344@gmail.com" className="group flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+                <a href="mailto:abhinaymishra2003@gmail.com" className="group flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                   <div className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 flex items-center justify-center shadow-md group-hover:bg-blue-50 dark:group-hover:bg-blue-900/20 transition-colors duration-200">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
-                  <span className="font-medium">nitin45344@gmail.com</span>
+                  <span className="font-medium">abhinaymishra2003@gmail.com</span>
                 </a>
-                <a href="tel:+919101864543" className="group flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
+                <a href="tel:+919389883429" className="group flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200">
                   <div className="w-10 h-10 rounded-full bg-white dark:bg-gray-800 flex items-center justify-center shadow-md group-hover:bg-blue-50 dark:group-hover:bg-blue-900/20 transition-colors duration-200">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
-                  <span className="font-medium">+91-9101864543</span>
+                  <span className="font-medium">+91-9389883429</span>
                 </a>
               </div>
               
               {/* Social/Resume buttons */}
               <div className="flex flex-wrap justify-center lg:justify-start gap-4">
                 <a 
-                  href="https://github.com/nitin54455" 
+                  href="https://github.com/abhinaymishra07" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="px-6 py-3 bg-gray-800 text-white rounded-full hover:bg-gray-700 flex items-center gap-2 transition-all duration-300 shadow-md hover:shadow-lg hover:translate-y-[-2px]"
@@ -76,7 +76,7 @@ export default function Home() {
                   GitHub
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/nitinsingh335" 
+                  href="https://www.linkedin.com/in/abhinaymishra07" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 flex items-center gap-2 transition-all duration-300 shadow-md hover:shadow-lg hover:translate-y-[-2px]"
@@ -190,17 +190,17 @@ export default function Home() {
                 </div>
                 
                 <div className="mt-6 flex justify-center gap-4">
-                  <a href="https://github.com/nitin54455" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-gray-700 flex items-center justify-center text-white shadow-md transition-transform hover:scale-110" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/abhinaymishra07" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-gray-700 flex items-center justify-center text-white shadow-md transition-transform hover:scale-110" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                       <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/in/nitinsingh335" className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 flex items-center justify-center text-white shadow-md transition-transform hover:scale-110" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/abhinaymishra07" className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 flex items-center justify-center text-white shadow-md transition-transform hover:scale-110" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                       <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
                     </svg>
                   </a>
-                  <a href="mailto:nitin45344@gmail.com" className="w-10 h-10 rounded-full bg-red-600 hover:bg-red-700 flex items-center justify-center text-white shadow-md transition-transform hover:scale-110" target="_blank" rel="noopener noreferrer">
+                  <a href="mailto:abhinaymishra2003@gmail.com" className="w-10 h-10 rounded-full bg-red-600 hover:bg-red-700 flex items-center justify-center text-white shadow-md transition-transform hover:scale-110" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                       <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z"/>
                     </svg>
@@ -230,12 +230,11 @@ export default function Home() {
                 </h3>
                 <div className="space-y-5">
                   {[
-                    { name: "C++", level: 90 },
-                    { name: "JavaScript", level: 85 },
-                    { name: "Python", level: 75 },
-                    { name: "C", level: 80 },
-                    { name: "PHP", level: 70 },
-                    { name: "Java", level: 65 }
+                    { name: "Java", level: 90 },
+                    { name: "C", level: 85 },
+                    { name: "C++", level: 75 },
+                    { name: "Python", level: 80 },
+                    { name: "R", level: 70 },
                   ].map((skill) => (
                     <div key={skill.name} className="space-y-2">
                       <div className="flex justify-between items-center">
@@ -260,10 +259,8 @@ export default function Home() {
                   </h3>
                   <div className="grid grid-cols-2 gap-4">
                     {[
-                      { name: "React", icon: "⚛️" },
-                      { name: "Bootstrap", icon: "🅱️" },
-                      { name: "Node.js", icon: "📦" },
-                      { name: "Laravel", icon: "🔺" },
+                      { name: "HTML", icon: "🌐" },
+                      { name: "CSS", icon: "🎨" },
                     ].map((skill) => (
                       <div key={skill.name} className="bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/30 dark:to-purple-900/30 rounded-lg p-4 flex items-center gap-3 transform hover:scale-105 transition-transform duration-300 shadow-sm hover:shadow">
                         <div className="text-2xl">{skill.icon}</div>
@@ -279,7 +276,7 @@ export default function Home() {
                   </h3>
                   <div className="flex flex-wrap gap-3">
                     {[
-                      "MySQL", "MongoDB", "Git", "GitHub", "Unity", "HTML & CSS"
+                      "MySQL", "Tableau", "VS Code", "RStudio", "IntelliJ Idea"
                     ].map((skill) => (
                       <span 
                         key={skill} 
@@ -297,7 +294,7 @@ export default function Home() {
                   </h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {[
-                      "Problem-Solving", "Leadership", "Decision-Making", "Communication", "Teamwork", "Adaptability"
+                      "Problem-Solving", "Team Player", "Communication", "Critical Thinking"
                     ].map((skill) => (
                       <li key={skill} className="flex items-center gap-2">
                         <svg className="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -351,115 +348,55 @@ export default function Home() {
               <div className="absolute inset-0 bg-[url('/pattern-grid.png')] opacity-10"></div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-24 h-24 rounded-full bg-white dark:bg-gray-800 flex items-center justify-center shadow-lg">
-                  <span className="text-4xl font-bold text-green-600 dark:text-green-400">RF</span>
+                  <span className="text-4xl font-bold text-green-600 dark:text-green-400">CS</span>
                 </div>
               </div>
               <div className="absolute top-4 right-4 py-1 px-3 bg-white/90 dark:bg-gray-800/90 rounded-full text-green-600 dark:text-green-400 text-sm font-semibold shadow-md">
-                May 2024 – Jul 2024
+                Jun-Jul 2024
               </div>
             </div>
             
             <div className="p-8">
-              <div className="flex flex-col md:flex-row gap-8">
-                <div className="md:w-2/3">
-                  <div className="flex items-center gap-3 mb-4">
-                    <h3 className="text-2xl font-bold text-green-600 dark:text-green-400">Redound Foundation</h3>
-                    <span className="px-3 py-1 bg-green-100 dark:bg-green-900/30 rounded-full text-sm font-medium text-green-800 dark:text-green-300">
-                      IT & Innovations Department
-                    </span>
-                  </div>
-                  
-                  <div className="mb-6">
-                    <div className="flex items-center gap-2 mb-1">
+              <div className="flex flex-col lg:flex-row gap-8">
+                <div className="lg:w-1/3">
+                  <h3 className="text-2xl font-bold mb-2 text-green-600 dark:text-green-400">CipherSchools</h3>
+                  <p className="text-gray-600 dark:text-gray-400 mb-4">Fundamentals of Data Structures using C++</p>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                       </svg>
-                      <span className="font-medium">Position:</span>
-                      <span className="text-gray-700 dark:text-gray-300">IT Intern</span>
-                    </div>
-                    <div className="flex items-center gap-2 mb-1">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      <span className="font-medium">Duration:</span>
-                      <span className="text-gray-700 dark:text-gray-300">60 hours</span>
+                      <span>Training Program</span>
                     </div>
                   </div>
-                  
+                </div>
+                <div className="lg:w-2/3">
                   <div className="space-y-4">
                     <p className="text-lg text-gray-700 dark:text-gray-300">
-                      Completed a comprehensive internship at the IT & Innovations Department where I contributed to environmental sustainability through technology projects.
+                      Gained comprehensive knowledge in data structures and algorithms through hands-on training.
                     </p>
                     <div className="space-y-2">
                       <div className="flex gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mt-1 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <p>Developed a project for the organization as part of the CDP initiative</p>
+                        <p>Learned asymptotic analysis (time & space complexity, Big-O)</p>
                       </div>
                       <div className="flex gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mt-1 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <p>Created responsive web interfaces for environmental data visualization</p>
+                        <p>Worked with data structures like arrays, linked lists, stacks, queues, trees, and hash tables</p>
                       </div>
                       <div className="flex gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mt-1 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <p>Collaborated with a cross-functional team to implement sustainable IT solutions</p>
+                        <p>Implemented and optimized sorting and searching algorithms</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                
-                <div className="md:w-1/3 border-l border-gray-200 dark:border-gray-700 pl-8">
-                  <h4 className="font-bold mb-4 text-green-600 dark:text-green-400 flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-                    </svg>
-                    Technologies Used
-                  </h4>
-                  <div className="grid grid-cols-2 gap-3">
-                    {["HTML", "CSS", "JavaScript", "Bootstrap"].map((tech) => (
-                      <div key={tech} className="bg-gradient-to-r from-green-100 to-emerald-100 dark:from-green-900/30 dark:to-emerald-900/30 p-3 rounded-lg flex items-center justify-center shadow-sm transform transition-transform hover:scale-105">
-                        <span className="font-medium text-green-800 dark:text-green-300">{tech}</span>
-                      </div>
-                    ))}
-                  </div>
-                  
-                  <div className="mt-8">
-                    <h4 className="font-bold mb-4 text-green-600 dark:text-green-400 flex items-center gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                      </svg>
-                      Key Skills Gained
-                    </h4>
-                    <div className="flex flex-wrap gap-2">
-                      {["Sustainability", "UI Design", "Team Collaboration", "Project Management"].map((skill) => (
-                        <span key={skill} className="inline-block px-3 py-1 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-full text-sm">
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700 flex justify-between items-center">
-                <div className="flex items-center gap-1 text-green-600 dark:text-green-400">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                  </svg>
-                  <span className="font-medium">Environmental sustainability focus</span>
-                </div>
-                
-                <a href="#" className="inline-flex items-center text-green-600 dark:text-green-400 hover:text-green-800 dark:hover:text-green-300 font-medium group">
-                  <span>View Certificate</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 transform transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
@@ -486,18 +423,18 @@ export default function Home() {
               <div className="h-3 bg-gradient-to-r from-blue-400 to-indigo-600"></div>
               <div className="p-8">
                 <div className="flex items-center justify-between mb-5">
-                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">Memories Social Media</h3>
+                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">Placement Preparation Website</h3>
                   <div className="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h14a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                   </div>
                 </div>
-                <p className="mb-6 text-gray-700 dark:text-gray-300">Built a social media platform enabling users to post, like, and comment on content. Managed data storage with MongoDB for efficient content handling.</p>
+                <p className="mb-6 text-gray-700 dark:text-gray-300">Currently developing a Placement Preparation website using Django to help students excel in placement exams and interviews. Implementing efficient search and categorization features for structured learning.</p>
                 <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
                   <h4 className="text-sm font-semibold mb-3 text-gray-600 dark:text-gray-400">Technologies Used</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["HTML", "CSS", "JavaScript", "MongoDB"].map((tech) => (
+                    {["Django", "Python", "HTML", "CSS"].map((tech) => (
                       <span key={tech} className="bg-blue-100 dark:bg-blue-900/30 px-3 py-1 rounded-full text-sm text-blue-800 dark:text-blue-300">
                         {tech}
                       </span>
@@ -520,18 +457,18 @@ export default function Home() {
               <div className="h-3 bg-gradient-to-r from-purple-400 to-pink-600"></div>
               <div className="p-8">
                 <div className="flex items-center justify-between mb-5">
-                  <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors duration-300">Restaurant POS</h3>
+                  <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors duration-300">Music Store Analysis</h3>
                   <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
                 </div>
-                <p className="mb-6 text-gray-700 dark:text-gray-300">Developed a Restaurant POS system with three dedicated pages for Admin, Cashier, and User to manage orders efficiently. Implemented secure authentication.</p>
+                <p className="mb-6 text-gray-700 dark:text-gray-300">Designed and executed SQL queries to analyze sales, customer behavior, and product trends in a music store database. Utilized aggregate functions and subqueries to extract key insights for data-driven decision-making.</p>
                 <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
                   <h4 className="text-sm font-semibold mb-3 text-gray-600 dark:text-gray-400">Technologies Used</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["HTML", "CSS", "JavaScript", "PHP"].map((tech) => (
+                    {["PostgreSQL", "SQL", "Data Analysis"].map((tech) => (
                       <span key={tech} className="bg-purple-100 dark:bg-purple-900/30 px-3 py-1 rounded-full text-sm text-purple-800 dark:text-purple-300">
                         {tech}
                       </span>
@@ -554,18 +491,18 @@ export default function Home() {
               <div className="h-3 bg-gradient-to-r from-green-400 to-teal-600"></div>
               <div className="p-8">
                 <div className="flex items-center justify-between mb-5">
-                  <h3 className="text-xl font-bold text-green-600 dark:text-green-400 group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors duration-300">Student Project Platform</h3>
+                  <h3 className="text-xl font-bold text-green-600 dark:text-green-400 group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors duration-300">Online Grocery Shopping Website</h3>
                   <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
                   </div>
                 </div>
-                <p className="mb-6 text-gray-700 dark:text-gray-300">Developed an integrated platform for managing and showcasing student projects. Implemented key features for project submission, review, and collaboration.</p>
+                <p className="mb-6 text-gray-700 dark:text-gray-300">Developed an Online Grocery Shopping Website using HTML, CSS, and JavaScript. Implemented login, signup, product listing, and shopping cart functionality with dynamic price updates and checkout process.</p>
                 <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
                   <h4 className="text-sm font-semibold mb-3 text-gray-600 dark:text-gray-400">Technologies Used</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["Laravel", "PHP", "HTML", "CSS", "JavaScript"].map((tech) => (
+                    {["HTML", "CSS", "JavaScript", "Frontend"].map((tech) => (
                       <span key={tech} className="bg-green-100 dark:bg-green-900/30 px-3 py-1 rounded-full text-sm text-green-800 dark:text-green-300">
                         {tech}
                       </span>
@@ -585,7 +522,7 @@ export default function Home() {
           </div>
           
           <div className="mt-16 text-center">
-            <a href="https://github.com/nitin54455" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full transition-colors duration-300 shadow-lg">
+            <a href="https://github.com/abhinaymishra07" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full transition-colors duration-300 shadow-lg">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-github mr-2" viewBox="0 0 16 16">
                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
               </svg>
@@ -743,9 +680,12 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-amber-600 dark:text-amber-400">Solved 70+ questions on LeetCode</h3>
+                <div>
+                  <h3 className="text-xl font-semibold text-amber-600 dark:text-amber-400">Solved 100+ Problems on LeetCode</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">January 2025</p>
+                </div>
               </div>
-              <p className="text-gray-700 dark:text-gray-300">Earned a badge for completing the 50-day challenge, strengthening problem-solving and algorithmic skills.</p>
+              <p className="text-gray-700 dark:text-gray-300">Consistently solved algorithmic problems on LeetCode platform, enhancing problem-solving and coding skills.</p>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border-t-4 border-green-500">
               <div className="flex items-center gap-4 mb-4">
@@ -754,9 +694,12 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold text-green-600 dark:text-green-400">16th place in the Hackathon CTF</h3>
+                <div>
+                  <h3 className="text-xl font-semibold text-green-600 dark:text-green-400">Volunteer for Government NGO Event</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">June 2023</p>
+                </div>
               </div>
-              <p className="text-gray-700 dark:text-gray-300">CTF (Capture the flag) TechnOcean Hackathon arranged by LPU</p>
+              <p className="text-gray-700 dark:text-gray-300">Organized a tree plantation rally in collaboration with 4-5 schools, promoting environmental awareness and community engagement.</p>
             </div>
           </div>
         </div>
@@ -790,7 +733,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-medium text-gray-900 dark:text-gray-100">Email</h4>
-                      <a href="mailto:nitin45344@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline">nitin45344@gmail.com</a>
+                      <a href="mailto:abhinaymishra2003@gmail.com" className="text-blue-600 dark:text-blue-400 hover:underline">abhinaymishra2003@gmail.com</a>
                     </div>
                   </div>
                   
@@ -802,7 +745,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-medium text-gray-900 dark:text-gray-100">Phone</h4>
-                      <a href="tel:+919101864543" className="text-blue-600 dark:text-blue-400 hover:underline">+91-9101864543</a>
+                      <a href="tel:+919389883429" className="text-blue-600 dark:text-blue-400 hover:underline">+91-9389883429</a>
                     </div>
                   </div>
                   
@@ -828,14 +771,14 @@ export default function Home() {
                 </p>
                 
                 <div className="space-y-4">
-                  <a href="https://github.com/nitin54455" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+                  <a href="https://github.com/abhinaymishra07" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="text-gray-800 dark:text-gray-200" viewBox="0 0 16 16">
                       <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                     </svg>
                     <span className="font-medium">Connect on GitHub</span>
                   </a>
                   
-                  <a href="https://www.linkedin.com/in/nitinsingh335" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-blue-50 dark:bg-blue-900/30 rounded-lg hover:bg-blue-100 dark:hover:bg-blue-800/30 transition-colors">
+                  <a href="https://www.linkedin.com/in/abhinaymishra07" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 bg-blue-50 dark:bg-blue-900/30 rounded-lg hover:bg-blue-100 dark:hover:bg-blue-800/30 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="text-blue-600 dark:text-blue-400" viewBox="0 0 16 16">
                       <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
                     </svg>
@@ -869,34 +812,39 @@ export default function Home() {
                 <div>
                   <h3 className="text-xl font-semibold text-blue-600 dark:text-blue-400">Lovely Professional University</h3>
                   <p className="text-lg mt-1">Bachelor of Technology - Computer Science and Engineering</p>
+                  <p className="text-gray-600 dark:text-gray-400 mt-2">CGPA: 6.40</p>
                 </div>
                 <div className="text-gray-600 dark:text-gray-400 flex flex-col items-end">
-                  <p className="font-medium">Punjab, India</p>
+                  <p className="font-medium">Phagwara, Punjab</p>
                   <p className="bg-blue-100 dark:bg-blue-900/30 px-3 py-1 rounded-full text-sm mt-2">Since August 2022</p>
                 </div>
               </div>
             </div>
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border-l-4 border-indigo-500">
+            
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border-l-4 border-green-500">
               <div className="flex justify-between items-start flex-wrap gap-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-indigo-600 dark:text-indigo-400">Army Public School</h3>
+                  <h3 className="text-xl font-semibold text-green-600 dark:text-green-400">Kendriya Vidyalaya Etawah</h3>
                   <p className="text-lg mt-1">Intermediate</p>
+                  <p className="text-gray-600 dark:text-gray-400 mt-2">Percentage: 86%</p>
                 </div>
                 <div className="text-gray-600 dark:text-gray-400 flex flex-col items-end">
-                  <p className="font-medium">Mhow, Indore</p>
-                  <p className="bg-indigo-100 dark:bg-indigo-900/30 px-3 py-1 rounded-full text-sm mt-2">April 2021 - March 2022</p>
+                  <p className="font-medium">Etawah, Uttar Pradesh</p>
+                  <p className="bg-green-100 dark:bg-green-900/30 px-3 py-1 rounded-full text-sm mt-2">March 2021</p>
                 </div>
               </div>
             </div>
+            
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border-l-4 border-purple-500">
               <div className="flex justify-between items-start flex-wrap gap-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-purple-600 dark:text-purple-400">Army Public School</h3>
+                  <h3 className="text-xl font-semibold text-purple-600 dark:text-purple-400">Kendriya Vidyalaya Etawah</h3>
                   <p className="text-lg mt-1">Matriculation</p>
+                  <p className="text-gray-600 dark:text-gray-400 mt-2">Percentage: 92%</p>
                 </div>
                 <div className="text-gray-600 dark:text-gray-400 flex flex-col items-end">
-                  <p className="font-medium">Mhow, Indore</p>
-                  <p className="bg-purple-100 dark:bg-purple-900/30 px-3 py-1 rounded-full text-sm mt-2">April 2019 - March 2020</p>
+                  <p className="font-medium">Etawah, Uttar Pradesh</p>
+                  <p className="bg-purple-100 dark:bg-purple-900/30 px-3 py-1 rounded-full text-sm mt-2">March 2019</p>
                 </div>
               </div>
             </div>
@@ -909,12 +857,12 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-center md:text-left">
-              <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 mb-2">Nitin Singh</h3>
+              <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 mb-2">Abhinay Mishra</h3>
               <p className="text-gray-600 dark:text-gray-400">© {new Date().getFullYear()} All rights reserved.</p>
             </div>
             <div className="flex justify-center gap-6">
               <a 
-                href="https://github.com/nitin54455" 
+                href="https://github.com/abhinaymishra07" 
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors duration-200 transform hover:scale-110"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -924,7 +872,7 @@ export default function Home() {
                 </svg>
               </a>
               <a 
-                href="https://www.linkedin.com/in/nitinsingh335" 
+                href="https://www.linkedin.com/in/abhinaymishra07" 
                 className="text-blue-600 hover:text-blue-800 transition-colors duration-200 transform hover:scale-110"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -934,7 +882,7 @@ export default function Home() {
                 </svg>
               </a>
               <a 
-                href="mailto:nitin45344@gmail.com" 
+                href="mailto:abhinaymishra2003@gmail.com" 
                 className="text-red-600 hover:text-red-800 transition-colors duration-200 transform hover:scale-110"
                 target="_blank"
                 rel="noopener noreferrer"
