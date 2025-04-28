@@ -20,8 +20,9 @@ export default function Home() {
               <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl transition-transform duration-500 hover:scale-105">
                 <Image 
                   src="/your-photo.jpg" 
-                  alt="Nitin Singh" 
+                  alt="Abhinay Mishra" 
                   fill
+                  unoptimized
                   style={{ objectFit: 'cover' }}
                   priority
                   className="transition-transform duration-700 hover:scale-110"
